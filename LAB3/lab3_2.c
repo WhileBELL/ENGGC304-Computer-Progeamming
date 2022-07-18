@@ -19,7 +19,8 @@ int main() {
     while( i < N ) {
         j = 0 ;
         while( j < N ) {
-            if( i < j ) printf( "%c" , star ) ; 
+            if( i < j ) 
+            printf( "%c" , star ) ; 
             j++;
         } // End while
         printf( "%s" , "\n" ) ;
