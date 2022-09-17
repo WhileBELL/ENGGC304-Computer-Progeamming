@@ -11,9 +11,9 @@ int main(){
 	printf("Salary amount/hr (Bath) : ");
 	scanf("%f", &salary);
 	
-	printf("---\n");
+	printf("----\n");
 	printf("Expected Output : \n");
 	printf("Employees ID = %d \n", emp_id);
-	printf("Amount/day = %.2f Bath(s)", salary*hrs);
+	printf("Amount/day = %.f Bath(s)", salary*hrs);
 	return 0;
 }

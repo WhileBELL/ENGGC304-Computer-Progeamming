@@ -1,11 +1,11 @@
 #include<stdio.h>
 
 int main(){
-    int inputint ;
-    float inputfloat ;
-    char inputchar ;
+    int A ;
+    float B ;
+    char C ;
     printf( "Please enter value : " ) ;
-    scanf( "%d %f %c", &inputint, &inputfloat, &inputchar ) ;
-    printf( "%d %.2f %c", inputint, inputfloat, inputchar ) ;
+    scanf( "%d %f %c", &A, &B , &C ); 
+    printf( "%d %.2f %c", A, B , C);
     return 0;
 }

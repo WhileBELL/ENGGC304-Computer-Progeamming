@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int years, check_years;
+    int y;
+    scanf("%d", &y);
 
-    printf( "Input years : " ) ;
-    scanf( "%d", &years ) ;
-    
-    check_years = years % 4 ;
-    switch ( check_years ) {
+    int check = y % 4 ;
+    printf(" check  = %d ",check);
+    switch ( check ) {
         case 0:
-            printf( "Feb = 29 days" ) ;
+            printf( "ffefefe" ) ;
             break;
         default:
             printf( "Feb = 28 days" ) ;
