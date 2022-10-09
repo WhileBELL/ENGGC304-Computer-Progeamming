@@ -8,9 +8,9 @@ int main(){
 
 	int l = strlen(name);
 	printf("%s", name);
-	// for(int i = l; i >= 0 ; i--){
-	// 	printf("%c", name[i]);
-	// }
+	for(int i = l; i >= 0 ; i--){
+		printf("%c", name[i]);
+	}
 
 	return 0;
 }
